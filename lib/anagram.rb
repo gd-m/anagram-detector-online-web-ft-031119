@@ -9,8 +9,8 @@ class Anagram
     array = []
     if an_arr.include?(word)
       return array
-    end 
-    
+    end
+
   end
 
 end
