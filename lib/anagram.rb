@@ -7,7 +7,7 @@ class Anagram
 
   def match(an_arr)
     array = []
-    if an_arr.include?(word)
+    if an_arr.include?(@word)
       return array
     end
 
