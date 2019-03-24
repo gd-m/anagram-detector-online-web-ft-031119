@@ -6,10 +6,7 @@ class Anagram
   end
 
   def match(an_arr)
-    if an_arr.include?(@word)
-      return @word
-    else return []
-    end
+    an_arr.select {|element| (@word.split("").sort) == (element.split("").sort)}
 
   end
 
